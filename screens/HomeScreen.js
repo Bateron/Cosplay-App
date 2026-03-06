@@ -95,7 +95,7 @@ export default function HomeScreen({ navigation }) {
         ListHeaderComponent={loading ? <View style={{ alignItems: "center", paddingVertical: spacing[6] }}><ActivityIndicator size="large" color={theme.primary} /></View> : null}
       />
 
-      <View style={{ position: "absolute", bottom: spacing[6], right: spacing[4], zIndex: 10 }} pointerEvents="box-none">
+      <View style={{ position: "absolute", bottom: spacing[6], right: spacing[4], zIndex: 10, pointerEvents: "box-none" }}>
         <Button
           title="＋"
           variant="primary"
